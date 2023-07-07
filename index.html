@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./JQuery/Vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./JQuery/Vendor/owl/css/owl.css">
+    <link rel="stylesheet" href="./JQuery/Vendor/fontawesome/fontawesome.css">
+    <link rel="stylesheet" href="./JQuery/css/style.css">
+    <title>jQuery</title>
+</head>
+<body>
+        
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./JQuery/assets/images/logo_1.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="caption">
+                        <h2>BRASILEIRA, CONTEMPORÂNEA, CRIATIVA</h2>
+                        <div class="line-dec"></div>
+                        <p>Servir os ingredientes mais frescos numa experiência que combine técnica e sabor, 
+                          invenção e tradição, provocação e memória afetiva. essa é a filosofia da cozinha do eatmore, 
+                          amparada ainda na busca constante por simplicidade, sazonalidade e respeito ao pequeno produtor rural </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="featured" class="featured-items">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1>Pratos Principais</h1>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="featured-item">
+                            <img src="./JQuery/assets/images/pexels-dorukhan-pekcan-14987816.jpg" alt="prato 1">
+                            <h4>Bife Ancho</h4>
+                            <h6>R$ 168,00</h6>
+                            <button id="btnAbrirCadastro" class="btn btn-dark">Pedido</button>
+                            <button class="btn-cancelar btn btn-danger" data-prato="prato">Cancelar</button>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./JQuery/assets/images/pexels-chokniti-khongchum-2280545.jpg" alt="prato 2">
+                            <h4>Fla de lirio do brejo</h4>
+                            <h6>R$ 40,00</h6>
+                            <button id="btnAbrirCadastro" class="btn btn-dark">Pedido</button>
+                            <button class="btn-cancelar btn btn-danger" data-prato="prato2">Cancelar</button>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./JQuery/assets/images/pexels-marcos-kohler-17178423.jpg" alt="prato 3">
+                            <h4>Churrasco de Bife de Ancho</h4>
+                            <h6>R$ 120,00</h6>
+                            <button id="btnAbrirCadastro" class="btn btn-dark">Pedido</button>
+                            <button class="btn-cancelar btn btn-danger" data-prato="prato3">Cancelar</button>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./JQuery/assets/images/pexels-marcos-kohler-17178432 (1).jpg" alt="prato 4">
+                            <h4>Hanburgues Artesanais</h4>
+                            <h6>R$ 38,00</h6>
+                            <button id="btnAbrirCadastro" class="btn btn-dark">Pedido</button>
+                            <button class="btn-cancelar btn btn-danger" data-prato="prato4">Cancelar</button>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./JQuery/assets/images/pexels-marcos-kohler-17178437.jpg" alt="Item 5">
+                            <h4>Shushy </h4>
+                            <h6>R$ 120,00</h6>
+                            <button id="btnAbrirCadastro" class="btn btn-dark">Pedido</button>
+                            <button class="btn-cancelar btn btn-danger" data-prato="prato5">Cancelar</button>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./JQuery/assets/images/pexels-marcos-kohler-17178455.jpg" alt="Item 6">
+                            <h4>Sobremesas</h4>
+                            <h6>R$ 25,00</h6>
+                            <button id="btnAbrirCadastro" class="btn btn-dark">Pedido</button>
+                            <button class="btn-cancelar btn btn-danger" data-prato="prato6">Cancelar</button>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./JQuery/assets/images/pexels-valeria-boltneva-842571.jpg" alt="Item 7">
+                            <h4>Saladas</h4>
+                            <h6>R$ 28,00</h6>
+                            <button id="btnAbrirCadastro" class="btn btn-dark">Pedido</button>
+                            <button class="btn-cancelar btn btn-danger" data-prato="prato7">Cancelar</button>
+                        </div>
+                        <div class="featured-item">
+                            <img src="./JQuery/assets/images/pexels-rajesh-tp-1624487.jpg" alt="Item 8">
+                            <h4>Frango a Carioca</h4>
+                            <h6>R$ 39,00</h6>
+                            <button id="btnAbrirCadastro" class="btn btn-dark">Pedido</button>
+                            <button class="btn-cancelar btn btn-danger" data-prato="prato8">Cancelar</button>
+                        </div>
+                        <div class="featured-item">
+                            <img src="../nova_proposta/JQuery/assets/images/pexels-yi-ren-16575683.jpg" alt="Item 9">
+                            <h4>Doces</h4>
+                            <h6>R$ 12,00</h6>
+                            <button id="btnAbrirCadastro" class="btn btn-dark">Pedido</button>
+                            <button class="btn-cancelar btn btn-danger" data-prato="prato9">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <div id="featured" class="featured-items">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1>Pratos Promocionais</h1>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="olw">
+            <div class="container img">
+                <img src="./JQuery/assets/images/pexels-lumn-604969.jpg" alt= "prato promocional">
+            </div>
+        </div>
+            <div class="container">
+            <h4>Pizza</h4>
+            <h6>R$ 12,00</h6>
+        </div>
+        <div class="container">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                Pedido
+              </button>
+
+        </div>
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Faça seu Pedido</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form  action="post" class="form">
+    
+                    <div class="mb-3">
+                      <label for="nome" class="form-label">Nome</label>
+                        <input type="text" name="nome" id="nome" title="Insira seu nome completo" class="form-control" placeholder="Digite seu nome" aria-describedby="helpNome">
+                    </div>
+                    <div class="mb-3">
+                        <textarea name ="mensagem" rows="5" cols="55"> Descreva seu pedido!</textarea>
+                    </div>
+       
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo">
+                        <img src="assets/images/header-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">How It Works ?</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                        <p>lmescoito&copy; Todos os direitos reservados
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup-container">
+          <div class="popup-content">
+            <!-- Conteúdo da pop-up de cadastro -->
+            <h2>Faça seu Pedido!</h2>
+              <!-- Campos do formulário de cadastro -->
+
+              <form  action="post" class="form">
+    
+                <div class="mb-3">
+                  <label for="nome" class="form-label">Nome</label>
+                    <input type="text" name="nome" id="nome" title="Insira seu nome completo" class="form-control" placeholder="Digite seu nome" aria-describedby="helpNome">
+                </div>
+                <div>
+                    <textarea name ="mensagem" rows="5" cols="30"> Descreva seu pedido!</textarea>
+                </div>
+   
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>    
+
+        
+    
+
+        
+        <script src="./JQuery/Vendor/JQuery/jquery-3.6.0.min.js"></script>
+        <script src="./JQuery/Vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="./JQuery/Vendor/owl/js/owl.js"></script>
+        <script src="./JQuery/js/custom.js"></script>
+    </body>
+    </html>
