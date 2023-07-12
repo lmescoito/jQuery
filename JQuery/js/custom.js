@@ -89,57 +89,15 @@
       
       
          })
-      
-      
-         /*
-          * TODO: incrementar a validação
-          * - checar se o nome é válido (mais de 2 caracteres)
-          * - checar se o email é válido com ao menos um "@" e "."
-          * - checar se o cpf é válido com regex
-          */
-         function validate( elem ){
-            if( elem.val() == '') {
-      
-               console.log('o campo de '+ elem.attr('name') + ' é obrigatório')
-      
-               elem.parent().find('.text-muted').show()
-      
-               elem.addClass('invalid')
-      
-               return false
-            } else {
-               elem.parent().find('.text-muted').hide()
-               elem.removeClass('invalid')
-            }
-         }
+/* formulario*/
 
-         $(document).ready(function() {
-            // Evento de clique no botão de abrir a pop-up de cadastro
-            $('#btnAbrirCadastro').click(function() {
-              // Mostra a pop-up de cadastro de dados
-              $('.popup-container').show();
-            });
-      
-            // Evento de clique no botão de enviar na pop-up de cadastro
-            $('#btnEnviar').click(function() {
-              // Esconde a pop-up de cadastro de dados
-              $('.popup-container').hide();
-            });
-          });
+$(document).ready(function(){
 
-          $(document).ready(function() {
-            // Evento de clique no botão de pedido
-            $('.btn-pedido').click(function() {
-              var prato = $(this).data('prato');
-              // Exibe o formulário de pedido correspondente ao prato clicado
-              $('#' + prato + '-pedido-form').show();
-            });
-      
-            // Evento de clique no botão de cancelar pedido
-            $('.btn-cancelar').click(function() {
-              var prato = $(this).data('prato');
-              // Oculta o formulário de pedido correspondente ao prato
-              $('#' + prato + '-pedido-form').hide();
-            });
-          });
+   $('#btn-cadastro').click(function(){
 
+      $('#formcad').offsetParent()
+     $('#formcad').toggle()
+
+   })
+})
+   

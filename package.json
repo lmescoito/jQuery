@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jquery-mask-plugin": "^1.14.16",
+    "maskedinput": "^3.3.11"
+  }
+}
