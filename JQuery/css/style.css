@@ -209,6 +209,7 @@ a {
 /*Cadastro*/
 
 #formcad {
+	max-width: 300px;
 	display: none;
 	position: fixed;
 	top: 50%;
@@ -766,7 +767,7 @@ p{
 	.subscribe-form .main-content form input.button {
 		margin-top: 20px;
 	}
-	.featured-page #filters {
+	.featured-page #filters  {
 		margin-top: 15px;
 		text-align: left;
 	} 

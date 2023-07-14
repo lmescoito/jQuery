@@ -101,3 +101,8 @@ $(document).ready(function(){
    })
 })
    
+$(window).resize(function() {
+   if (window.matchMedia('(max-width: 300px)').matches) {
+       // functionality for screens smaller than 1200px
+   }
+});

@@ -149,11 +149,11 @@
            
 
             <form method="post" id="formcad" action="">
-                <h3>Formulario de Cadastro - 2 </h3>
+                <h6>Formulario de Cadastro </h6>
             
                 <label for="nome" class="class_font_rotulo">Nome:</label>
                 <input type="text" name="nome" id="nome" obrigatorio="sim"
-                rotulo="nome do cliente"  size="60" maxlength="100"/>
+                rotulo="nome do cliente"  size="30" maxlength="100"/>
                 <div id="div_error_nome" class="class_error"></div>
             
             
@@ -171,25 +171,13 @@
                 rotulo="CPF" tipo_dado="cpf" size="25" maxlength="14"/>
                 <div id="div_error_cpf" class="class_error"></div>
             
-                <label for="tem_carro" class="class_font_rotulo" >Propriedades:</label>
-                <label><input type="checkbox" name="tem_carro" id="tem_carro" value="S"
-                obrigatorio="sim" rotulo="propriedades" grupock="propriedade"
-                qde_min="1">Carro<br></label>
-                <label><input type="checkbox" name="tem_moto"
-                id="tem_moto" value="S" grupock="propriedade">Moto<br></label>
-                <label><input type="checkbox" name="tem_imovel"
-                id="tem_imovel" value="S" grupock="propriedade">Imóvel<br></label>
-                <div id="div_error_tem_carro" class="class_error"></div>
+            
             
                 <label for="data_nasc" class="class_font_rotulo" >Data de nascimento:</label>
                 <input type="text" name="data_nasc" id="data_nasc"
                 obrigatorio="sim" rotulo="Data de nascimento" tipo_dado="data" />
                 <div id="div_error_data_nasc" class="class_error"></div>
             
-                <label for="filhos" class="class_font_rotulo" >Número de filhos:</label>
-                <input type="text" name="filhos" id="filhos" obrigatorio="sim"
-                rotulo="número de filhos" tipo_dado="inteiro" />
-                <div id="div_error_filhos" class="class_error"></div>
             
                 <label for="salario" class="class_font_rotulo" >Salário:</label>
                 <input type="text" name="salario" id="salario" obrigatorio="sim"
