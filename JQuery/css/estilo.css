@@ -4,6 +4,7 @@ body {
 	font-size:12px;
 }
 p{
+	display: contents;
 	margin: 2px;
 	padding: 2px;
 }

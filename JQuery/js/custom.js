@@ -97,10 +97,17 @@ $(document).ready(function(){
 
       $('#formcad').offsetParent()
      $('#formcad').toggle()
+     $('#button').closest()
+     
+
 
    })
 })
-   
+function fecharFormulario() {
+   if (confirm("Fechar Formulario?")) {
+     $('#formcad').hide();
+   }
+ }
 $(window).resize(function() {
    if (window.matchMedia('(max-width: 300px)').matches) {
        // functionality for screens smaller than 1200px

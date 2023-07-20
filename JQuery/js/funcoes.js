@@ -18,15 +18,6 @@ function validar()
 			}
 		}
 		else
-		if( $(this).attr("type") == "checkbox"  )
-		{
-
-			if( $("input[grupock="+$(this).attr("grupock")+"]:checked").length < $(this).attr("qde_min") )
-			{
-				msg = "Pelo menos "+$(this).attr("qde_min")+" opção(ões) do campo(s) " + $(this).attr("rotulo") + " deve(m) ser marcado(s)!";
-			}
-		}
-		else
 		if( $(this).val() == '' )
 		{
 			msg = 'O campo '+ $(this).attr("rotulo")+' é obrigatório !';
